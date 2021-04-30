@@ -1,0 +1,6 @@
+Assignment_01_on_Makefile:
+	This problem is about having a release system. As a PD owner, we always want to ensure the latest release and the previous one are properly identified. So we are going to ensure the latest release folder is named "release" and the previous release soft-linked as "previous_release".
+	You have to write a Makefile script to achieve the following tasks. You can refine below algorightm to achieve the same goal.
+	1. Check for pre-existing folder called "release". If it exists, rename the folder to a timestamped backup (for example- release_20210423_105632 format to stay unique per date-time). Now create a directory called "release".
+	2. Check if a softlink exists called "previous_stage". If exists, delete it. Then create a softlink of your folder renamed in step 1 to point it as "previous_release". However, if this is the only release and no old release is present, then we do not need a previous_release softlink.
+	3. At this point, there should be an empty "release" folder present. Inside this folder, create below folders: "Reports", "Audits", "Logfiles". This is the end of this assignment as we do not have actual files to be copied there. But if we can achieve this, creating an actual release system will be easy for us.

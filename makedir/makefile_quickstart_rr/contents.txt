@@ -1,0 +1,16 @@
+Example 01: Introduction to Makefile
+
+Example 02: Prerequisites
+
+Example 03: Defining Variable and passing them during make call
+
+Example 04: About including additional definitions
+
+Example 05: Variable Assignment
+
+Example 06: Using bash if-then-else conditions
+
+Example 07: Multiple prerequisites
+
+Example 08: Touchfiles
+
