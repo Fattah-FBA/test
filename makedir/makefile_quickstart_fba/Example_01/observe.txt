@@ -1,0 +1,34 @@
+#######################################################    
+# Topic:	Introduction to Makefile - Example 01
+# Goal:		Observe and self-explain the behaviours		
+# Authors:
+#   - Redwan (redwan@primesiliconbd.com)
+#   - Fattah (fattah@primesiliconbd.com)
+#   Modified:	May 1, 2021
+#   	Fattah:	Added Header, Footer and Description
+#######################################################
+
+# Observe 1a
+echo "Check what happen while no target is set and you try to echo"
+
+# Observe 1b
+observe:
+	echo "Check what happen while the target is given"
+
+another_target:
+	echo "Check how many target a single \"make\" command can execute"
+
+# Observe 1c
+default:
+	echo "First Target named default"
+foo:
+	echo "Second Target named foo"
+
+########################################################
+# * Try Observe1a, Observe 1b and Observe 1c in seperate trials.
+# * Create Seperate Makefile for each observes and check
+#   what you can figur out from this
+# * Try Observe 1c with the testfile:
+#   # Test File:	/c/Users/fatta/test_git/first_try/makedir/makefile_quickstart_fba/Example_01/test_01.sh 
+#   (Note): Check if the error related to the rule "foo" is still there or not
+########################################################
